@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M13 Assignment - The Bank Account Application</title>
+    <style>
+        #page {
+            border: 5px solid;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px;
+            
+        }
+
+       #table {
+            border: 1px solid black;
+        }
+    </style>
+
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+<div id="page">
+<h1>Bank Account</h1>
+<button id="Name">Enter Name</button><br>
+<button id="Deposit">Deposit</button><br>
+<button id="Withdrawal">Withdrawal</button>
+<br>
+<br>
+    <div id="tableContainer">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Balance</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
